@@ -1,8 +1,23 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Meeting Memory</title>
+        <item>
+            <title>0.3.1</title>
+            <pubDate>Sun, 04 Oct 2026 11:47:36 -0500</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Meeting Memory 0.3.1</h2>
+<ul><li>Checks Screen &amp; System Audio Recording access through ScreenCaptureKit when Grant access is selected, so a stale legacy permission check no longer blocks authorized capture.</li><li>Uses authorized ScreenCaptureKit window information for meeting detection when the legacy check disagrees.</li><li>Shows a clear up-to-date status after checking for updates.</li></ul>
+<p>If screen recording still shows Grant access, select it once to verify access with macOS. No recording starts during this check.</p>
+]]></description>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.1/MeetingMemory-0.3.1.zip" length="3099757" type="application/octet-stream" sparkle:edSignature="CRBYTcm5LrYMfAwz9LHIszmwwh9FqCRXxxSUVumI8CTTdoRjE/Q7Zlbly6r+jVaM1m80wS9cCZKIni5xZlBIBQ=="/>
+        </item>
         <item>
             <title>0.3.0</title>
             <pubDate>Thu, 01 Oct 2026 16:41:33 -0500</pubDate>
@@ -20,10 +35,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 <p>For an older unsigned test version, quit Meeting Memory and replace the app in Applications once. macOS may request permissions again during this transition. Recordings and settings remain in their existing locations. Future releases can be installed through Check for Updates.</p>
 <p>Requires macOS 15 or later on Apple silicon. Obtain participant consent before recording.</p>
 ]]></description>
-            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.0/MeetingMemory-0.3.0.zip" length="3095622" type="application/octet-stream" sparkle:edSignature="S/2mCOQmKVQ5anlMLphDw8kFp72gJbj8frRFHKbLTZ4gIOiOaquAjzoXVLeUwBxxLqHTRbXh7ERx+9uR4ZghCg=="></enclosure>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.0/MeetingMemory-0.3.0.zip" length="3095622" type="application/octet-stream" sparkle:edSignature="S/2mCOQmKVQ5anlMLphDw8kFp72gJbj8frRFHKbLTZ4gIOiOaquAjzoXVLeUwBxxLqHTRbXh7ERx+9uR4ZghCg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: Jz4VUwyPcTGmu0WAsO8+kU1LI/8azE2gtrp/THYvXmioQYHaybWLvKKGvVVuKnf0tCIyQBw2rQaIg8adjDpgAg==
-length: 1905
+</rss>
+<!-- sparkle-signatures:
+edSignature: 7vRh0pzkWpdVrY6Y/3xjgiRFflzXfVv0jr5Dh+cXgknQNz9jiroNMW+yoBIlmcb9zJ3aWh1ZVQmTneSa6ZtsCw==
+length: 3193
 -->

@@ -4,9 +4,9 @@ Native meeting audio capture, local transcripts, and in-app updates.
 
 ## Download
 
-[Download Meeting Memory 0.3.0](https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.0/MeetingMemory-0.3.0.zip)
+[Download Meeting Memory 0.3.1](https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.1/MeetingMemory-0.3.1.zip)
 
-Requires macOS 15 or later on Apple silicon. See [release notes](https://github.com/unit-117/meeting-memory-updates/releases/tag/v0.3.0).
+Requires macOS 15 or later on Apple silicon. See [release notes](https://github.com/unit-117/meeting-memory-updates/releases/tag/v0.3.1).
 
 ## Install
 
@@ -18,7 +18,7 @@ After that, use **Meeting Memory → Check for Updates**. Update installation wa
 
 Use the same download on each Apple silicon Mac running macOS 15 or later. No developer account or signing certificate is needed on the receiving computers. Grant recording and speech permissions separately on each Mac; each installation checks the same update feed.
 
-Recordings and transcripts are stored locally on the Mac that captured them. The installer does not sync libraries or copy your ChatGPT connection. Optional ChatGPT delivery needs separate private setup on each Mac, including checking the current delivery helper's Python 3 requirement.
+Recordings and transcripts are stored locally on the Mac that captured them. The installer does not sync libraries or copy your ChatGPT connection. Optional ChatGPT delivery needs separate private setup on each Mac, including checking the current delivery helper's requirement for a working `/usr/bin/python3`.
 
 Obtain participant consent before recording. Check the complete workflow with a short consenting test call after installation.
 
