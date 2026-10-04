@@ -6,6 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meeting Memory</title>
         <item>
+            <title>0.3.3</title>
+            <pubDate>Sun, 04 Oct 2026 13:45:17 -0500</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>More reliable on-device transcription</h2><p>Uses Apple’s newer local speech engine on supported macOS 26+ Macs. Silent trailing audio no longer blocks a successfully recognized meeting. Audio stays on your Mac; language assets may download from Apple.</p><p>After updating, use Retry transcription on a previously failed recording. Existing recordings, settings, and permissions are preserved.</p>]]></description>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.3/MeetingMemory-0.3.3.zip" length="3124966" type="application/octet-stream" sparkle:edSignature="acHRQnpEM1BgO78C9rOQK49TN8mSMyuXzr5aSmseJqx+dv6XuJKSReM7aLWRP2dvq7sNF5QxFcgLefY+dkqLBw=="/>
+        </item>
+        <item>
             <title>0.3.2</title>
             <pubDate>Sun, 04 Oct 2026 12:46:38 -0500</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -29,28 +39,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.1/MeetingMemory-0.3.1.zip" length="3099757" type="application/octet-stream" sparkle:edSignature="CRBYTcm5LrYMfAwz9LHIszmwwh9FqCRXxxSUVumI8CTTdoRjE/Q7Zlbly6r+jVaM1m80wS9cCZKIni5xZlBIBQ=="/>
         </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Thu, 01 Oct 2026 16:41:33 -0500</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Meeting Memory 0.3.0</h2>
-<ul>
-<li>Adds Check for Updates and optional automatic update checks.</li>
-<li>Defers update restarts while recording, transcribing, or delivering a meeting.</li>
-<li>Uses a stable Apple Developer ID and signed update downloads.</li>
-<li>Includes improved Webex direct-call detection.</li>
-</ul>
-<p>For an older unsigned test version, quit Meeting Memory and replace the app in Applications once. macOS may request permissions again during this transition. Recordings and settings remain in their existing locations. Future releases can be installed through Check for Updates.</p>
-<p>Requires macOS 15 or later on Apple silicon. Obtain participant consent before recording.</p>
-]]></description>
-            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.0/MeetingMemory-0.3.0.zip" length="3095622" type="application/octet-stream" sparkle:edSignature="S/2mCOQmKVQ5anlMLphDw8kFp72gJbj8frRFHKbLTZ4gIOiOaquAjzoXVLeUwBxxLqHTRbXh7ERx+9uR4ZghCg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BgXjxfqjn8D/Tm0u5ZjCTwCmBldvJDVmsDoHk/uQ/phfYYrU81F/Q5CyQJYa/2CiKx4jNXAqkwcIrhLcZHWzDA==
-length: 4362
+edSignature: SOcXnQ6P94tHdcLt97xymKsmGhDJX88SSArmSuZR6ooOf5cjSIcD2mIKTEcyjztolLLyxk7AhK4WBwyoRiHuCg==
+length: 4058
 -->
