@@ -6,6 +6,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meeting Memory</title>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Sun, 04 Oct 2026 12:46:38 -0500</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Meeting Memory 0.3.2</h2><ul><li>Shows permission recovery guidance in Settings instead of repeating error dialogs on launch.</li><li>Stops retrying failed screen-access requests automatically.</li><li>Keeps the same signed app identity for updates.</li></ul><p>If macOS retains an entry from an older test version, follow the permission recovery steps in Settings. No recording starts during an access check.</p>
+]]></description>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.2/MeetingMemory-0.3.2.zip" length="3102548" type="application/octet-stream" sparkle:edSignature="4YXbmmM2xnBZARTdha8L0UJQnouMbHKvlRW7aJwLLLX1skOZ34m0ZbotGa76sU4Z03p3f5j5RKszX9WNzI26Aw=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Sun, 04 Oct 2026 11:47:36 -0500</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -40,6 +51,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7vRh0pzkWpdVrY6Y/3xjgiRFflzXfVv0jr5Dh+cXgknQNz9jiroNMW+yoBIlmcb9zJ3aWh1ZVQmTneSa6ZtsCw==
-length: 3193
+edSignature: BgXjxfqjn8D/Tm0u5ZjCTwCmBldvJDVmsDoHk/uQ/phfYYrU81F/Q5CyQJYa/2CiKx4jNXAqkwcIrhLcZHWzDA==
+length: 4362
 -->

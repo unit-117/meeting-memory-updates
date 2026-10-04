@@ -4,9 +4,9 @@ Native meeting audio capture, local transcripts, and in-app updates.
 
 ## Download
 
-[Download Meeting Memory 0.3.1](https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.1/MeetingMemory-0.3.1.zip)
+[Download Meeting Memory 0.3.2](https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.2/MeetingMemory-0.3.2.zip)
 
-Requires macOS 15 or later on Apple silicon. See [release notes](https://github.com/unit-117/meeting-memory-updates/releases/tag/v0.3.1).
+Requires macOS 15 or later on Apple silicon. See [release notes](https://github.com/unit-117/meeting-memory-updates/releases/tag/v0.3.2).
 
 ## Install
 
