@@ -12,7 +12,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink sparkle:edSignature="OliyP+G5ZwEv5Kzb+4P76aaoRvjilALKgDG2Ujj0Rtu245a2wl98cCr4Lp2wMFVD5wbwWbBp52iY1b11DVvqDg==" sparkle:length="1652">https://raw.githubusercontent.com/unit-117/meeting-memory-updates/main/MeetingMemory-0.3.4.html</sparkle:releaseNotesLink>
+            <description><![CDATA[<p>Meeting Memory 0.3.4 improves long-meeting analysis, delivery recovery, and audio capture diagnostics.</p><ul><li>Longer meetings receive analysis time per section. A failed section gets one summary-only retry, then a clearly labeled extractive fallback while later sections continue. Summary headings use readable timestamps.</li><li>Multipart ChatGPT uploads are spaced 90 seconds apart to reduce omitted payloads in cloud task handoffs. Exact exports are retained privately for recovery. Upload acceptance is explicitly distinguished from verified saving in Meetings.</li><li>The meeting menu adds Refresh notes and Retry saving in ChatGPT. Recovery retries keep the original content and cloud deduplication identifiers.</li><li>Automatic capture refreshes the selected app&#x27;s audio helpers during a call. Silent or near-silent tracks produce a visible capture-quality warning and retain audio. Track labels no longer claim to identify speakers.</li></ul><p>A five-part synthetic cloud delivery was verified character-for-character. This does not guarantee every future cloud task succeeds. Actual remote-participant audio capture still requires a consenting live call on this version. No recordings or credentials are included in this release.</p>]]></description>
             <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.4/MeetingMemory-0.3.4.zip" length="3144585" type="application/octet-stream" sparkle:edSignature="BCIErrL433YO1XIjIXUaeoupnYi08F8eAv8Fcy3n6THOj/OLc1aiYaOPt5k4OpV8U0FdgLdiojd0X/JrJjxCBQ=="/>
         </item>
         <item>
@@ -39,6 +39,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: SRPcf4uZ6Y1Rp/F9LYQvX6OXUUHTsxc8zLvNe5LGtY2w9me0V7U372iIDNj4bK+tXLAY8DNl6YcrKffcZTo/DA==
-length: 3755
+edSignature: 48cnnXhuhtOlrpz35EaiDLDOkEXlCxwxADxVqxKpvIRSWqzk0Ki/d8NIimh7htJqb9+BwH3utLWc/qEYjTC+DA==
+length: 4771
 -->
