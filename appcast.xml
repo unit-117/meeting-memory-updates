@@ -6,14 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meeting Memory</title>
         <item>
+            <title>0.3.5</title>
+            <pubDate>Tue, 06 Oct 2026 15:11:34 -0500</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Meeting Memory 0.3.5</h2><p>Meeting Memory now shows a clear status in the macOS menu bar while it is running.</p><p>- MM · Listening shows that automatic meeting detection is ready; it does not mean a recording has started.<br>- Recording displays a red recording symbol and elapsed time. Paused recordings, processing, privacy mode, manual mode, and setup requirements have distinct labels.<br>- Click the indicator for recording controls, the meeting library, Settings, and updates.<br>- A new Show status in the menu bar switch in Settings lets you hide or restore the indicator. It is enabled by default and remains available when the library window is closed.</p><p>This update uses the same signed app identity and preserves recordings, settings, and existing permissions. No recording starts merely by opening the menu.<br></p>]]></description>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.5/MeetingMemory-0.3.5.zip" length="3146225" type="application/octet-stream" sparkle:edSignature="HyZyJMpiDiZcng47FUsK+p5TebXqcuwb6jYEk57HPszvg2CHjwRM9YH8SiCwobu4elunRogo+y1g1MW0cUqkBw=="/>
+        </item>
+        <item>
             <title>0.3.4</title>
             <pubDate>Tue, 06 Oct 2026 10:34:11 -0500</pubDate>
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p>Meeting Memory 0.3.4 improves long-meeting analysis, delivery recovery, and audio capture diagnostics.</p><ul><li>Longer meetings receive analysis time per section. A failed section gets one summary-only retry, then a clearly labeled extractive fallback while later sections continue. Summary headings use readable timestamps.</li><li>Multipart ChatGPT uploads are spaced 90 seconds apart to reduce omitted payloads in cloud task handoffs. Exact exports are retained privately for recovery. Upload acceptance is explicitly distinguished from verified saving in Meetings.</li><li>The meeting menu adds Refresh notes and Retry saving in ChatGPT. Recovery retries keep the original content and cloud deduplication identifiers.</li><li>Automatic capture refreshes the selected app&#x27;s audio helpers during a call. Silent or near-silent tracks produce a visible capture-quality warning and retain audio. Track labels no longer claim to identify speakers.</li></ul><p>A five-part synthetic cloud delivery was verified character-for-character. This does not guarantee every future cloud task succeeds. Actual remote-participant audio capture still requires a consenting live call on this version. No recordings or credentials are included in this release.</p>]]></description>
             <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.4/MeetingMemory-0.3.4.zip" length="3144585" type="application/octet-stream" sparkle:edSignature="BCIErrL433YO1XIjIXUaeoupnYi08F8eAv8Fcy3n6THOj/OLc1aiYaOPt5k4OpV8U0FdgLdiojd0X/JrJjxCBQ=="/>
+            <description><![CDATA[<h1>Meeting Memory 0.3.4</h1><pre style="white-space:pre-wrap;font-family:system-ui">Meeting Memory 0.3.4 improves long-meeting analysis, delivery recovery, and audio capture diagnostics.
+
+- Longer meetings receive analysis time per section. A failed section gets one summary-only retry, then a clearly labeled extractive fallback while later sections continue. Summary headings use readable timestamps.
+- Multipart ChatGPT uploads are spaced 90 seconds apart to reduce omitted payloads in cloud task handoffs. Exact exports are retained privately for recovery. Upload acceptance is explicitly distinguished from verified saving in Meetings.
+- The meeting menu adds Refresh notes and Retry saving in ChatGPT. Recovery retries keep the original content and cloud deduplication identifiers.
+- Automatic capture refreshes the selected app&#x27;s audio helpers during a call. Silent or near-silent tracks produce a visible capture-quality warning and retain audio. Track labels no longer claim to identify speakers.
+
+A five-part synthetic cloud delivery was verified character-for-character. This does not guarantee every future cloud task succeeds. Actual remote-participant audio capture still requires a consenting live call on this version. No recordings or credentials are included in this release.
+</pre>]]></description>
         </item>
         <item>
             <title>0.3.3</title>
@@ -25,20 +43,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <description><![CDATA[<h2>More reliable on-device transcription</h2><p>Uses Apple’s newer local speech engine on supported macOS 26+ Macs. Silent trailing audio no longer blocks a successfully recognized meeting. Audio stays on your Mac; language assets may download from Apple.</p><p>After updating, use Retry transcription on a previously failed recording. Existing recordings, settings, and permissions are preserved.</p>]]></description>
             <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.3/MeetingMemory-0.3.3.zip" length="3124966" type="application/octet-stream" sparkle:edSignature="acHRQnpEM1BgO78C9rOQK49TN8mSMyuXzr5aSmseJqx+dv6XuJKSReM7aLWRP2dvq7sNF5QxFcgLefY+dkqLBw=="/>
         </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Sun, 04 Oct 2026 12:46:38 -0500</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Meeting Memory 0.3.2</h2><ul><li>Shows permission recovery guidance in Settings instead of repeating error dialogs on launch.</li><li>Stops retrying failed screen-access requests automatically.</li><li>Keeps the same signed app identity for updates.</li></ul><p>If macOS retains an entry from an older test version, follow the permission recovery steps in Settings. No recording starts during an access check.</p>
-]]></description>
-            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.2/MeetingMemory-0.3.2.zip" length="3102548" type="application/octet-stream" sparkle:edSignature="4YXbmmM2xnBZARTdha8L0UJQnouMbHKvlRW7aJwLLLX1skOZ34m0ZbotGa76sU4Z03p3f5j5RKszX9WNzI26Aw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 48cnnXhuhtOlrpz35EaiDLDOkEXlCxwxADxVqxKpvIRSWqzk0Ki/d8NIimh7htJqb9+BwH3utLWc/qEYjTC+DA==
-length: 4771
+edSignature: 5SSXfi52pPvvzzjLzNw/h3D7FbAwWXgSNqLEG8NX1N4DwSE2J2ajIjNLLBtEDWYPDbYiABNN/K5AsAJ3QJ8rAg==
+length: 5241
 -->
