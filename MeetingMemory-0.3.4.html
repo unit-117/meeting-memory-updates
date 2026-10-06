@@ -1,0 +1,12 @@
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires updating signatures in appcasts that reference this file! This will involve re-running generate_appcast or sign_update.
+-->
+<!doctype html><html><head><meta charset="utf-8"><title>Meeting Memory 0.3.4</title></head><body><h1>Meeting Memory 0.3.4</h1><pre style="white-space:pre-wrap;font-family:system-ui">Meeting Memory 0.3.4 improves long-meeting analysis, delivery recovery, and audio capture diagnostics.
+
+- Longer meetings receive analysis time per section. A failed section gets one summary-only retry, then a clearly labeled extractive fallback while later sections continue. Summary headings use readable timestamps.
+- Multipart ChatGPT uploads are spaced 90 seconds apart to reduce omitted payloads in cloud task handoffs. Exact exports are retained privately for recovery. Upload acceptance is explicitly distinguished from verified saving in Meetings.
+- The meeting menu adds Refresh notes and Retry saving in ChatGPT. Recovery retries keep the original content and cloud deduplication identifiers.
+- Automatic capture refreshes the selected app&#x27;s audio helpers during a call. Silent or near-silent tracks produce a visible capture-quality warning and retain audio. Track labels no longer claim to identify speakers.
+
+A five-part synthetic cloud delivery was verified character-for-character. This does not guarantee every future cloud task succeeds. Actual remote-participant audio capture still requires a consenting live call on this version. No recordings or credentials are included in this release.
+</pre></body></html>

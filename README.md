@@ -4,9 +4,9 @@ Native meeting audio capture, local transcripts, and in-app updates.
 
 ## Download
 
-[Download Meeting Memory 0.3.3](https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.3/MeetingMemory-0.3.3.zip)
+[Download Meeting Memory 0.3.4](https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.4/MeetingMemory-0.3.4.zip)
 
-Requires macOS 15 or later on Apple silicon. See [release notes](https://github.com/unit-117/meeting-memory-updates/releases/tag/v0.3.3).
+Requires macOS 15 or later on Apple silicon. See [release notes](https://github.com/unit-117/meeting-memory-updates/releases/tag/v0.3.4).
 
 ## Install
 
@@ -23,3 +23,9 @@ Recordings and transcripts are stored locally on the Mac that captured them. The
 Obtain participant consent before recording. Check the complete workflow with a short consenting test call after installation.
 
 This repository contains distribution files only. App source code, recordings, transcripts, account credentials, and private signing keys are not stored here.
+
+## Delivery and capture checks
+
+ChatGPT uploads are paced at one part every 90 seconds. Keep the Mac awake until pending uploads finish; an interrupted upload resumes when the app next runs. Uploaded means the cloud accepted the content, not that the final Pages have been verified. Check your Meetings space, and use the meeting menu’s **Retry saving in ChatGPT** if a part is missing. Exact exports remain private on the source Mac for recovery.
+
+Silent meeting audio now shows a warning. Microphone and meeting-audio labels identify tracks, not people. Validate audible remote participants in a consenting call; a Ready transcript alone is not evidence that both sides were captured.

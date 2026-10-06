@@ -6,6 +6,16 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meeting Memory</title>
         <item>
+            <title>0.3.4</title>
+            <pubDate>Tue, 06 Oct 2026 10:34:11 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink sparkle:edSignature="OliyP+G5ZwEv5Kzb+4P76aaoRvjilALKgDG2Ujj0Rtu245a2wl98cCr4Lp2wMFVD5wbwWbBp52iY1b11DVvqDg==" sparkle:length="1652">https://raw.githubusercontent.com/unit-117/meeting-memory-updates/main/MeetingMemory-0.3.4.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.4/MeetingMemory-0.3.4.zip" length="3144585" type="application/octet-stream" sparkle:edSignature="BCIErrL433YO1XIjIXUaeoupnYi08F8eAv8Fcy3n6THOj/OLc1aiYaOPt5k4OpV8U0FdgLdiojd0X/JrJjxCBQ=="/>
+        </item>
+        <item>
             <title>0.3.3</title>
             <pubDate>Sun, 04 Oct 2026 13:45:17 -0500</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -26,22 +36,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.2/MeetingMemory-0.3.2.zip" length="3102548" type="application/octet-stream" sparkle:edSignature="4YXbmmM2xnBZARTdha8L0UJQnouMbHKvlRW7aJwLLLX1skOZ34m0ZbotGa76sU4Z03p3f5j5RKszX9WNzI26Aw=="/>
         </item>
-        <item>
-            <title>0.3.1</title>
-            <pubDate>Sun, 04 Oct 2026 11:47:36 -0500</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Meeting Memory 0.3.1</h2>
-<ul><li>Checks Screen &amp; System Audio Recording access through ScreenCaptureKit when Grant access is selected, so a stale legacy permission check no longer blocks authorized capture.</li><li>Uses authorized ScreenCaptureKit window information for meeting detection when the legacy check disagrees.</li><li>Shows a clear up-to-date status after checking for updates.</li></ul>
-<p>If screen recording still shows Grant access, select it once to verify access with macOS. No recording starts during this check.</p>
-]]></description>
-            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.1/MeetingMemory-0.3.1.zip" length="3099757" type="application/octet-stream" sparkle:edSignature="CRBYTcm5LrYMfAwz9LHIszmwwh9FqCRXxxSUVumI8CTTdoRjE/Q7Zlbly6r+jVaM1m80wS9cCZKIni5xZlBIBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: SOcXnQ6P94tHdcLt97xymKsmGhDJX88SSArmSuZR6ooOf5cjSIcD2mIKTEcyjztolLLyxk7AhK4WBwyoRiHuCg==
-length: 4058
+edSignature: SRPcf4uZ6Y1Rp/F9LYQvX6OXUUHTsxc8zLvNe5LGtY2w9me0V7U372iIDNj4bK+tXLAY8DNl6YcrKffcZTo/DA==
+length: 3755
 -->
