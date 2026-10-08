@@ -6,14 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meeting Memory</title>
         <item>
+            <title>0.3.6</title>
+            <pubDate>Thu, 08 Oct 2026 15:58:12 -0500</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[
+<h2>More reliable automatic recording</h2>
+<ul><li>Native meeting recording now continues when the meeting app replaces its call window, including while muted.</li><li>A verified call's existing microphone process can keep recording active when its window information disappears. Unrelated audio and output alone do not extend recording.</li><li>Completed recordings now show why recording stopped. This information is saved locally and retained through transcription.</li><li>Includes the menu-bar recording indicator introduced in version 0.3.5.</li></ul>
+<p>Existing recordings, settings, and the stable app signing identity are preserved. Regression checks passed; real-call validation of this fix remains required.</p>
+]]></description>
+            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.6/MeetingMemory-0.3.6.zip" length="3154572" type="application/octet-stream" sparkle:edSignature="ndDGIZNJQaKps9AAHQp3ERqAigCBcdzw/odnzWYTyxK/eOPboPKp+/2X0st8BZTI9C7cb+QkLvEiCYwATAEtDA=="/>
+        </item>
+        <item>
             <title>0.3.5</title>
             <pubDate>Tue, 06 Oct 2026 15:11:34 -0500</pubDate>
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>Meeting Memory 0.3.5</h2><p>Meeting Memory now shows a clear status in the macOS menu bar while it is running.</p><p>- MM · Listening shows that automatic meeting detection is ready; it does not mean a recording has started.<br>- Recording displays a red recording symbol and elapsed time. Paused recordings, processing, privacy mode, manual mode, and setup requirements have distinct labels.<br>- Click the indicator for recording controls, the meeting library, Settings, and updates.<br>- A new Show status in the menu bar switch in Settings lets you hide or restore the indicator. It is enabled by default and remains available when the library window is closed.</p><p>This update uses the same signed app identity and preserves recordings, settings, and existing permissions. No recording starts merely by opening the menu.<br></p>]]></description>
             <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.5/MeetingMemory-0.3.5.zip" length="3146225" type="application/octet-stream" sparkle:edSignature="HyZyJMpiDiZcng47FUsK+p5TebXqcuwb6jYEk57HPszvg2CHjwRM9YH8SiCwobu4elunRogo+y1g1MW0cUqkBw=="/>
+            <description><![CDATA[<h2>Meeting Memory 0.3.5</h2><p>Meeting Memory now shows a clear status in the macOS menu bar while it is running.</p><p>- MM · Listening shows that automatic meeting detection is ready; it does not mean a recording has started.<br>- Recording displays a red recording symbol and elapsed time. Paused recordings, processing, privacy mode, manual mode, and setup requirements have distinct labels.<br>- Click the indicator for recording controls, the meeting library, Settings, and updates.<br>- A new Show status in the menu bar switch in Settings lets you hide or restore the indicator. It is enabled by default and remains available when the library window is closed.</p><p>This update uses the same signed app identity and preserves recordings, settings, and existing permissions. No recording starts merely by opening the menu.<br></p>]]></description>
         </item>
         <item>
             <title>0.3.4</title>
@@ -33,19 +47,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 A five-part synthetic cloud delivery was verified character-for-character. This does not guarantee every future cloud task succeeds. Actual remote-participant audio capture still requires a consenting live call on this version. No recordings or credentials are included in this release.
 </pre>]]></description>
         </item>
-        <item>
-            <title>0.3.3</title>
-            <pubDate>Sun, 04 Oct 2026 13:45:17 -0500</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>More reliable on-device transcription</h2><p>Uses Apple’s newer local speech engine on supported macOS 26+ Macs. Silent trailing audio no longer blocks a successfully recognized meeting. Audio stays on your Mac; language assets may download from Apple.</p><p>After updating, use Retry transcription on a previously failed recording. Existing recordings, settings, and permissions are preserved.</p>]]></description>
-            <enclosure url="https://github.com/unit-117/meeting-memory-updates/releases/download/v0.3.3/MeetingMemory-0.3.3.zip" length="3124966" type="application/octet-stream" sparkle:edSignature="acHRQnpEM1BgO78C9rOQK49TN8mSMyuXzr5aSmseJqx+dv6XuJKSReM7aLWRP2dvq7sNF5QxFcgLefY+dkqLBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 5SSXfi52pPvvzzjLzNw/h3D7FbAwWXgSNqLEG8NX1N4DwSE2J2ajIjNLLBtEDWYPDbYiABNN/K5AsAJ3QJ8rAg==
-length: 5241
+edSignature: ivHODvosxGx+HvG2PCcI6/jYPXuEhAZMwrkYjch3qRC6ST8L6o7TqqHr9ZNTPTHbIfh8+KUjTdl8D+uyagd+CA==
+length: 5563
 -->

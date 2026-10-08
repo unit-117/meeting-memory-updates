@@ -1,0 +1,8 @@
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires updating signatures in appcasts that reference this file! This will involve re-running generate_appcast or sign_update.
+-->
+<!doctype html><html><head><meta charset="utf-8"><title>Meeting Memory 0.3.6</title></head><body>
+<h2>More reliable automatic recording</h2>
+<ul><li>Native meeting recording now continues when the meeting app replaces its call window, including while muted.</li><li>A verified call's existing microphone process can keep recording active when its window information disappears. Unrelated audio and output alone do not extend recording.</li><li>Completed recordings now show why recording stopped. This information is saved locally and retained through transcription.</li><li>Includes the menu-bar recording indicator introduced in version 0.3.5.</li></ul>
+<p>Existing recordings, settings, and the stable app signing identity are preserved. Regression checks passed; real-call validation of this fix remains required.</p>
+</body></html>
